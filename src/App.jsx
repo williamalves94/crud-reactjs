@@ -1,10 +1,17 @@
-import React from "react"
+import React from "react";
+import { Container, DivCrud } from "./styles/style";
+import { Header } from './components/header';
+
 const App = () => {
   
   return (
-      <div>
-        <h1>teste</h1> 
-      </div>
+      <Container>
+        
+        <DivCrud>
+          <Header />
+        </DivCrud>
+        
+      </Container>
   )
 }
 
