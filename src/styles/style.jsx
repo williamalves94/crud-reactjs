@@ -9,13 +9,13 @@ export const Container = styled.div`
 `;
 
 export const DivCrud = styled.div`
-    width: 600px;
+    max-width: 600px;
     min-height: 400px;
     border: 2px solid DodgerBlue;
     border-radius: 15px;
     padding: 30px;
-    display: flex;
     justify-content: center;
+    
 `;
 
 export const Head = styled.header`
@@ -23,4 +23,45 @@ export const Head = styled.header`
     font-weight: bold;
     font-family: sans-serif;
     color: #fff;
+    display: flex;
+    justify-content: center;
+`;
+
+export const DivInputAndButton = styled.div` 
+    max-width: 600px;
+    flex-direction: column;
+    margin-top: 10px;
+
+    input{
+        height: 40px;
+        background-color: #fff;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        flex: 2;
+    }
+`;
+
+export const Button = styled.button`
+    border: none;
+    border-radius: 10px;
+    background-color: DodgerBlue;
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 11;
+    &:hover{
+        transition: all 0.5s ease;
+        background-color: #1981e9;
+    }
+    
+
+
+    
 `;
