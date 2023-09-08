@@ -4,7 +4,7 @@ export const InputAndButton = () => {
     return(
         <DivInputAndButton>
             <input type="text" />
-            <Button>Salvar</Button>
+            <Button>Adicionar</Button>
         </DivInputAndButton>
     )
 }

@@ -41,7 +41,6 @@ export const DivInputAndButton = styled.div`
         padding: 10px;
         font-size: 15px;
         font-weight: bold;
-        flex: 2;
     }
 `;
 
@@ -55,7 +54,7 @@ export const Button = styled.button`
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    flex: 11;
+    flex: 1;
     &:hover{
         transition: all 0.5s ease;
         background-color: #1981e9;
