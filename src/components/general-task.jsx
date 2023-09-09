@@ -1,7 +1,7 @@
 import React from 'react';
-
-const GeneralTask = () => {
-    return <h1>General Task</h1>
-}
+import { InputTask } from '../styles/style';
  
-export default GeneralTask;
+export const GeneralTask = ({ normaltasks }) => {
+    
+    return <InputTask>{normaltasks.title}</InputTask>
+}

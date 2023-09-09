@@ -1,7 +1,12 @@
 import React from "react";
+import { GeneralTask } from './general-task';
 
 export const DailyTask = ({ normaltasks }) => {
-    console.log(normaltasks);
-    return <h1>Tasks</h1>
+    return (
+        <>
+            {normaltasks.map((normaltasks) => <GeneralTask normaltasks={ normaltasks }/>)}
+        </>
+    )
 
 }
+

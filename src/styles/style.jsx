@@ -15,7 +15,8 @@ export const DivCrud = styled.div`
     border-radius: 15px;
     padding: 30px;
     justify-content: center;
-    
+    font-size: 13px;
+    color: #fff;
 `;
 
 export const Head = styled.header`
@@ -59,8 +60,17 @@ export const Button = styled.button`
         transition: all 0.5s ease;
         background-color: #1981e9;
     }
-    
+`;
 
-
-    
+export const InputTask = styled.div`
+    display: flex;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    width: 500px;
+    font-size: 15px;    
 `;
