@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, DivCrud } from "./styles/style";
 //import { Header } from './components/header';
-//import { InputAndButton } from './components/inputAndButton'
+import { InputAndButton } from './components/inputAndButton'
 import { DailyTask } from './components/daily-task';
 import { GeneralTask } from "./components/general-task";
 
@@ -17,16 +17,12 @@ const App = () => {
       title: "Ganhar dinheiro",
       completed: true,
     },
-    {
-      id: 2,
-      title: "Comprar a BMW",
-      completed: true,
-    },
   ]);
   
   return (
       <Container>        
         <DivCrud>
+          <InputAndButton />
           <DailyTask normaltasks={ normaltasks }/>
           <GeneralTask normaltasks={ normaltasks }/>
         </DivCrud>
@@ -38,4 +34,4 @@ const App = () => {
 export default App;
 
 //<Header />
-//<InputAndButton />
+//

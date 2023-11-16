@@ -29,9 +29,10 @@ export const Head = styled.header`
 `;
 
 export const DivInputAndButton = styled.div` 
-    max-width: 600px;
-    flex-direction: column;
+    width: 100%;
     margin-top: 10px;
+    display: flex;
+
 
     input{
         height: 40px;
@@ -41,7 +42,8 @@ export const DivInputAndButton = styled.div`
         border: none;
         padding: 10px;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: bold;        
+        flex: 2;
     }
 `;
 
@@ -51,7 +53,7 @@ export const Button = styled.button`
     background-color: DodgerBlue;
     margin-left: 10px;
     height: 40px;
-    width: 120px;
+    width: 100%;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -72,5 +74,6 @@ export const InputTask = styled.div`
     color: #000;
     background-color: #fff;
     width: 500px;
-    font-size: 15px;    
+    font-size: 15px;
+    font-weight: 600;
 `;

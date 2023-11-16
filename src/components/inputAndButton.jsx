@@ -1,10 +1,10 @@
 import { DivInputAndButton, Button} from '../styles/style';
 
-export const InputAndButton = () => {
+    export const InputAndButton = ({ children, onClick }) => {
     return(
         <DivInputAndButton>
             <input type="text" />
-            <Button>Adicionar</Button>
+            <Button onClick={onClick}>{children}</Button>
         </DivInputAndButton>
     )
 }
